@@ -60,11 +60,11 @@ void myFunc(int& a) // int & a  = 10;
 
 void test02()
 {
-	const int a = 10;
-	myFunc(a);//需要避免二义性出现
+	//const int a = 10;
+	int a = 10;
+	myFunc(a);   //需要避免二义性出现
 
 }
-
 
 
 
