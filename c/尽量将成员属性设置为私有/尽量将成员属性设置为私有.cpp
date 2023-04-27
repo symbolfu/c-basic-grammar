@@ -4,6 +4,9 @@ using namespace std;
 #include <string>
 
 
+//将成员属性都设置为私有好处：自己可以控制读写权限
+//可以对设置内容 加有效性验证
+
 class Person
 {
 private:
@@ -62,6 +65,8 @@ void test01()
 	//cout << "张三情人是："<< p.m_Lover <<endl; //情人是只写权限  外部访问不到
 
 }
+
+
 
 
 
