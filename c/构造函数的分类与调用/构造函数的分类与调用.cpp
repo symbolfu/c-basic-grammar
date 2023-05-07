@@ -60,6 +60,10 @@ void test01()
 	//注意事项二
 	//不要用拷贝构造函数 初始化 匿名对象 Person(p3); 编译器认为 Person p3对象实例化  如果已经有p3  p3就重定义
 
+
+	// 3、隐式法
+	Person p5 = 10; //Person p5 = Person(10);
+	Person p6 = p5;
 }
 
 
