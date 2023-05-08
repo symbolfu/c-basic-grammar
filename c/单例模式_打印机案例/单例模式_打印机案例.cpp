@@ -49,7 +49,6 @@ void test01()
 	p2->printText("调休申请");
 
 	cout << "打印机使用次数： " << p1->m_Count << endl;
-
 }
 
 
